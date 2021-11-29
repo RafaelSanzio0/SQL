@@ -1,0 +1,10 @@
+SELECT * FROM [TABELA DE PRODUTOS]
+
+-- traz na consulta 
+SELECT * FROM [TABELA DE PRODUTOS] WHERE [NOME DO PRODUTO] LIKE '%Litros%'
+
+-- traz na consulta
+SELECT * FROM [TABELA DE PRODUTOS] WHERE [NOME DO PRODUTO] LIKE 'Litros%'
+
+-- traz na consulta
+SELECT * FROM [TABELA DE PRODUTOS] WHERE [NOME DO PRODUTO] LIKE '%Litros%' AND [SABOR] = 'Laranja'
